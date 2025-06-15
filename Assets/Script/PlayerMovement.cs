@@ -124,7 +124,7 @@ public class PlayerMovement : MonoBehaviour
     bool isGrounded()
     {
         //check if player is on ground
-        return Physics2D.OverlapCircle(GroundCheck.position, 0.2f, layer);
+        return Physics2D.OverlapCircle(GroundCheck.position, 0.1f, layer);
     }
     public void TakeDamage(float damage)
     {
